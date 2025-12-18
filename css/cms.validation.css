@@ -1,0 +1,93 @@
+.field-validation-error
+{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: transparent url(/web/20250405022217im_/https://fobca.org/webbuilder/content/images/icon-validation-error-small.png) no-repeat;
+    color: transparent;
+    /*font-size: 0.1px;*/
+    overflow: hidden;
+    cursor: default;
+    vertical-align: middle;
+    margin-top: 2px;
+    position: relative;
+}
+
+.field-validation-error.with-message
+{
+    width: auto;
+    min-width: 24px;
+    overflow: visible;
+}
+
+.field-validation-error span {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    color: transparent;
+    font-size: 0.1px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: transparent url(/web/20250405022217im_/https://fobca.org/webbuilder/content/images/icon-validation-error-small.png) no-repeat;
+    cursor: default;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.field-validation-error.with-message span
+{
+    display: inline;
+    font-size: inherit;
+    position: relative;
+    color: red;
+    background-image: none;
+    padding-left: 30px;
+    line-height: 24px;
+    overflow: visible;
+}
+
+.field-validation-valid
+{
+    display: none !important;
+}
+
+input.input-validation-error,
+select.input-validation-error,
+textarea.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee !important;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/*
+     FILE ARCHIVED ON 02:22:17 Apr 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:22 Dec 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.531 (2)
+  exclusion.robots: 0.054 (2)
+  exclusion.robots.policy: 0.025 (2)
+  esindex: 0.03 (2)
+  cdx.remote: 17.914 (2)
+  LoadShardBlock: 282.041 (6)
+  PetaboxLoader3.datanode: 273.831 (8)
+  load_resource: 211.435 (2)
+  PetaboxLoader3.resolve: 130.446 (3)
+*/

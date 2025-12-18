@@ -1,0 +1,56 @@
+/* default menu style, it can be overridden in template */
+.mainmenu
+{
+    padding: 0 5px;
+    position: relative; /* it is required for js menu to work */
+}
+
+.mainmenu .menutop
+{
+}
+
+.mainmenu .menunodes
+{
+}
+
+.mainmenu .menubottom
+{
+}
+
+.mainmenu .menubranch
+{
+}
+
+.mainmenu .menubranch .menubranch
+{
+    margin-left: 15px;
+}
+
+.mainmenu .menubranchchildren
+{
+    width: 170px;
+    display: none; /* it is required for js menu to work */
+    background-color: #ccc;
+    z-index: 10000;
+}
+
+/*
+     FILE ARCHIVED ON 02:22:17 Apr 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:22 Dec 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.625
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 15.587
+  LoadShardBlock: 300.754 (3)
+  PetaboxLoader3.resolve: 236.56 (4)
+  PetaboxLoader3.datanode: 220.877 (4)
+  load_resource: 194.277
+*/

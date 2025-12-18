@@ -1,0 +1,58 @@
+.meeting-or-event-layout .description p
+{
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+/* block placeholder */
+.block-editor
+{
+    display: block !important;
+}
+
+/* image settings dialog should display behind ckfinder dialog */
+.md-modal {z-index: 8002 !important; }
+.md-modal#md-customcolor {z-index: 8003 !important; }
+.md-overlay { z-index: 8001 !important; }
+
+/* block editor should insert tables with padded cells */
+table.default td { padding: 5px 10px; }
+
+/* extra font for CKEditor and BlockEditor */
+@font-face
+{
+    font-family: 'Myriad-PB';
+    src: url('/web/20250405022217im_/https://fobca.org/webbuilder/content/fonts/Myriad/MyriadPro-Regular.eot');
+    src: url('/web/20250405022217im_/https://fobca.org/webbuilder/content/fonts/Myriad/MyriadPro-Regular.eot#iefix') format('embedded-opentype'),
+         url('/web/20250405022217im_/https://fobca.org/webbuilder/content/fonts/Myriad/MyriadPro-Regular.woff') format('woff'),
+         url('/web/20250405022217im_/https://fobca.org/webbuilder/content/fonts/Myriad/MyriadPro-Regular.ttf') format('truetype'),
+         url('/web/20250405022217im_/https://fobca.org/webbuilder/content/fonts/Myriad/MyriadPro-Regular.svg#myriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* notifications should show up over dialogs */
+#notifications
+{
+    z-index: 1000000;
+}
+/*
+     FILE ARCHIVED ON 02:22:17 Apr 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:22 Dec 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.072 (2)
+  exclusion.robots: 0.035 (2)
+  exclusion.robots.policy: 0.017 (2)
+  esindex: 0.02 (2)
+  cdx.remote: 95.567 (2)
+  LoadShardBlock: 287.008 (6)
+  PetaboxLoader3.resolve: 185.955 (6)
+  PetaboxLoader3.datanode: 200.482 (8)
+  load_resource: 181.839 (2)
+*/

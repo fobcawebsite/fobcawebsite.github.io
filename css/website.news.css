@@ -1,0 +1,187 @@
+/* default news style, it can be overridden in template */
+.newsbar
+{
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+
+.newsbar .top
+{
+}
+
+.newsbar .items
+{
+}
+
+.newsbar .items .newsitemseparator
+{
+    height: 30px;
+}
+
+.newsbar .items .newsitem
+{
+}
+
+.newsbar .items .newsitem .headline
+{
+}
+
+.newsbar .items .newsitem .date
+{
+    margin: 0 0 5px 0;
+}
+
+.newsbar .items .newsitem .image
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.newsbar .items .newsitem .image img
+{
+    max-width: 120px;
+    max-height: 200px;
+    cursor: pointer;
+}
+
+.newsbar .items .newsitem .content
+{
+    text-align: justify;
+}
+
+.newsbar .items .newsitem .content *
+{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.newsbar .items .newsitem .content > a.more
+{
+}
+
+.newsbar .bottom
+{
+}
+
+/* news details dialog */
+
+.publicnewsdialog-container
+{
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: .2em;
+    outline: 0;
+}
+
+.publicnewsdialog-container .ui-dialog-titlebar
+{
+    padding: .4em 1em;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    background-color: #e9e9e9;
+    font-weight: bold;
+}
+
+.publicnewsdialog-container .ui-dialog-content
+{
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    background: none;
+    overflow: auto;
+}
+
+.publicnewsdialog-container .ui-dialog-buttonpane
+{
+    border-width: 1px 0 0 0;
+    border-color: #ddd;
+    margin-top: .5em;
+    padding: .3em 1em .5em .4em;
+}
+
+.publicnewsdialog-container .ui-dialog-buttonpane .ui-dialog-buttonset
+{
+    text-align: right;
+}
+
+.publicnewsdialog-container .ui-dialog-buttonpane .ui-dialog-buttonset button
+{
+    margin: .5em .4em .5em 0;
+}
+
+/* need this to work side by side with block editor which overrides ui-draggable */
+.ui-draggable.publicnewsdialog-container
+{
+    position: absolute !important;
+}
+
+.publicnewsdialog-container .ui-dialog-buttonset button
+{
+    display: inline-block;
+}
+
+.publicnewsdialog-container .ui-dialog-titlebar .ui-button
+{
+    display: none;
+}
+
+.publicnewsdialog .headline
+{
+    color: #404040;
+    font-weight: bold;
+    font-size:  14pt;
+    margin: 0 0 10px 0;
+}
+
+.publicnewsdialog .date
+{
+    font-size: small;
+    margin: 0 0 10px 0;
+}
+
+.publicnewsdialog .image
+{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.publicnewsdialog .image img
+{
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid DarkGray;
+}
+
+.publicnewsdialog .buttons
+{
+    margin: 25px 0 0 0;
+    text-align: right;
+}
+
+.publicnewsdialog .buttons button
+{
+    margin-left: 15px;
+}
+/*
+     FILE ARCHIVED ON 02:22:17 Apr 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:23 Dec 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.648 (2)
+  exclusion.robots: 0.036 (2)
+  exclusion.robots.policy: 0.018 (2)
+  esindex: 0.024 (2)
+  cdx.remote: 135.137 (2)
+  LoadShardBlock: 265.738 (6)
+  PetaboxLoader3.datanode: 239.852 (8)
+  PetaboxLoader3.resolve: 154.371 (4)
+  load_resource: 899.486 (2)
+*/

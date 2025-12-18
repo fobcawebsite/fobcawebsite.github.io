@@ -1,0 +1,381 @@
+input[type=button],
+input[type=submit]
+{ -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;-o-appearance: none; appearance: none; }
+ 
+.hidden
+{
+    display: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.strong
+{
+    font-weight: bold;
+}
+
+.control-maintenance
+{
+    background-color: #eee;
+    opacity: 0.8;
+    text-align: center;
+    padding: 40px;
+    color: black;
+}
+
+img
+{
+    border-style: none;
+}
+
+table.contentwrapper
+{
+    width: 100%;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+table.contentwrapper > tr,
+table.contentwrapper > tbody > tr
+{
+    margin: 0;
+    padding: 0;
+}
+
+table.contentwrapper > tr > td,
+table.contentwrapper > tbody > tr > td
+{
+    margin: 0;
+    padding: 0;
+}
+
+input.control-btn
+{
+    margin: 0 6px 6px 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    padding: 8px 10px;
+    background: #777777 none;
+    border: 1px solid #666666;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
+    color: white;
+    display: inline-block;
+    outline: medium none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: auto;
+    text-decoration: none;
+    text-indent: 0;
+    border-radius: 4px;
+    min-width: 100px;
+}
+
+input.control-btn:hover
+{
+    background-color:#333333;
+    border-color:black;
+}
+
+input.control-btn.flat
+{
+    background-color: #365171;
+    border-color: #365171;
+    box-shadow: none;
+    color: #fff;
+    outline: none;
+    text-shadow: none;
+}
+
+input.control-btn.flat:hover
+{
+    background-color: #273f5c;
+    border-color: #273f5c;
+}
+
+select.control-ddl,
+input[type=text].control-field,
+input[type=password].control-field,
+textarea.control-field
+{
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    padding: 8px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+select.control-ddl
+{
+    height: 35px;
+    min-width: 250px;
+    padding: 6px 8px;
+}
+
+input[type=text].control-field,
+input[type=password].control-field
+{
+    height: 35px;
+}
+
+table.control-grid
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.control-grid tr
+{
+    vertical-align: top;
+}
+
+table.control-grid th,
+table.control-grid td
+{
+    padding: 10px 15px;
+}
+
+table.control-grid th
+{
+    background-color: #eee;
+    color: #979797;
+    text-align: left;
+}
+
+table.control-grid td
+{
+    border-bottom: 1px solid #d8d8d8;
+}
+
+table.control-grid tr:last-child td
+{
+    border-bottom: none;
+}
+
+.dialogue .btn-list
+{
+    margin: 30px 0 0 0;
+}
+
+.dialogue .btn-list:before,
+.dialogue .btn-list:after
+{
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+
+.dialogue .btn-list:after
+{
+	clear: both;
+}
+
+.dialogue .btn-list li
+{
+    float: right;
+    list-style-type: none;
+    margin: 0 0 6px 6px;
+    padding: 0;
+}
+
+.dialogue .btn-list li a
+{
+    background-color:#777777;
+    border:1px solid #666666;
+    color:white;
+    margin: 0;
+    width:auto;
+    min-width: 65px;
+    border-radius: 4px;
+    display:inline-block;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    outline: medium none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-indent: 0;
+}
+
+.dialogue .btn-list li a:hover
+{
+    background-color:#333333;
+    border-color:black;
+}
+
+.icon						{background: transparent url(/web/20250405022217im_/https://fobca.org/webbuilder/content/images/iconset.png) no-repeat;
+							 height:30px; min-width:30px; text-indent:-9999px; display:inline-block;vertical-align: middle;}
+
+.icon.web 					{background-position:0 -1380px;}
+.icon.web:hover,.icon.web.active	{background-position:0 -1410px;}
+
+.icon.view-eye {background-position: 0 -960px; }
+.icon.view-eye:hover {background-position: 0 -990px;}
+
+.icon.question 				{background-position:0 -15660px;}
+.icon.question:hover,.icon.question.active 			{background-position:0 -15690px;}
+
+.icon.calendar-sm {background-position: 0 -1200px;width: 30px;text-indent: -9999px;}
+.icon.calendar-sm:hover {background-position: 0 -1230px;}
+
+.icon.rolodex-card 			{background-position:0 -9000px;}
+.icon.rolodex-card:hover 		{background-position:0 -9030px;}
+
+.icon.man 					{background-position:0 -1860px;}
+.icon.man:hover 				{background-position:0 -1890px;}
+
+.icon.checkmark 			{background-position:0 -2940px;}
+.icon.checkmark:hover 			{background-position:0 -2970px;}
+
+.icon.toolbox 				{background-position:0 -4500px;}
+.icon.toolbox:hover 			{background-position:0 -4530px;}
+
+.icon.members-sm 			{background-position:0 -1800px;}
+.icon.members-sm:hover 			{background-position:0 -1830px;}
+
+.icon.doc-v2 				{background-position:0 -8100px;}
+.icon.doc-v2:hover 				{background-position:0 -8130px;}
+
+.icon.map-marker 			{background-position:0 -2100px;}
+.icon.map-marker:hover 			{background-position:0 -2130px;}
+
+.icon.gift 					{background-position:0 -10680px;}
+.icon.gift:hover 				{background-position:0 -10710px;}
+
+.icon.cone 					{background-position:0 -13500px;}
+.icon.cone:hover 				{background-position:0 -13530px;}
+
+.icon.finish-flag 			{background-position:0 -10920px;}
+.icon.finish-flag:hover 		{background-position:0 -10950px;}
+
+.icon.delete 				{background-position:0 -60px;}
+.icon.delete:hover 				{background-position:0 -90px;}
+
+.icon.gears 				{background-position:0 -4140px;}
+.icon.gears:hover 				{background-position:0 -4170px;}
+
+.icon.email 				{background-position:0 -420px;}
+.icon.email:hover 				{background-position:0 -450px;}
+
+.icon.email-v4 				{background-position:0 -600px;}
+.icon.email-v4:hover 			{background-position:0 -630px;}
+
+.icon.twitter-sm 			{background-position:0 -5220px;}
+.icon.twitter-sm:hover 			{background-position:0 -5250px;}
+
+.icon.facebook-sm 			{background-position:0 -5280px;}
+.icon.facebook-sm:hover 		{background-position:0 -5310px;}
+
+.icon.linkedin-sm 			{background-position:0 -5340px;}
+.icon.linkedin-sm:hover 		{background-position:0 -5370px;}
+
+.icon.google-sm 			{background-position:0 -5400px;}
+.icon.google-sm:hover 			{background-position:0 -5430px;}
+
+.icon.picture 				{background-position:0 -9060px;}
+.icon.picture:hover 			{background-position:0 -9090px;}
+
+.icon.pinterest-sm 			{background-position:0 -5580px;}
+.icon.pinterest-sm:hover 		{background-position:0 -5610px;}
+
+.icon.rename 				{background-position:0 -4740px;}
+.icon.rename:hover 				{background-position:0 -4770px;}
+
+.icon.important 			{background-position:0 -3120px;}
+.icon.important:hover 			{background-position:0 -3149px;}
+
+.icon.arrow-left3 			{background-position:0 -12420px;}
+.icon.arrow-left3:hover 		{background-position:0 -12450px;}
+
+.icon.arrow-right3 			{background-position:0 -12480px;}
+.icon.arrow-right3:hover 		{background-position:0 -12510px;}
+
+/* styled checkbox */
+
+.styled-checkbox {
+    opacity: 0.01;
+}
+
+.styled-checkbox-face
+{
+     background: url("/web/20250405022217im_/https://fobca.org/webbuilder/content/images/mail-checkbox-off.png") no-repeat scroll center bottom transparent;
+     display: inline-block;
+     height: 16px;
+     line-height: 16px;
+     overflow: hidden;
+     vertical-align: middle;
+     width: 15px;
+}
+
+.styled-checkbox-face-off
+{    
+}
+
+.styled-checkbox-face-on
+{
+     background-image: url("/web/20250405022217im_/https://fobca.org/webbuilder/content/images/mail-checkbox-on.png");
+}
+
+.styled-checkbox-face-disabled
+{
+     visibility: hidden;
+}
+
+.styled-checkbox-face input[type=checkbox]
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* end of styled checkbox */
+
+.control-pager
+{
+    margin-top: 40px;
+}
+
+.control-pager a
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.control-pager .pages
+{
+    display: inline-block;
+}
+
+.control-pager .pages .active
+{
+    font-size: 125%;
+    opacity: 0.3;
+}
+/*
+     FILE ARCHIVED ON 02:22:17 Apr 05, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:29:22 Dec 18, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.373 (2)
+  exclusion.robots: 0.046 (2)
+  exclusion.robots.policy: 0.02 (2)
+  esindex: 0.027 (2)
+  cdx.remote: 22.313 (2)
+  LoadShardBlock: 277.605 (6)
+  PetaboxLoader3.datanode: 267.767 (8)
+  load_resource: 143.641 (2)
+  PetaboxLoader3.resolve: 126.063 (3)
+*/
