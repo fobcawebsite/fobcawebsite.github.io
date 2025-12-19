@@ -320,8 +320,18 @@
 
                                 <div class="menubranch">
                                     <div class="menunode" menunode="17539">
-                                        <a href="https://www.petfinder.com/search/dogs-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6"
-                                            target="_blank">Available Dogs</a>
+                                         <script>
+                                            var doglinks = [
+                                                'https://www.petfinder.com/search/dogs-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6&sort=newest_addition',
+                                                'https://www.petfinder.com/search/dogs-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6&sort=oldest_addition'
+                                            ];
+
+                                            function randomDogLink() {
+                                                var i = parseInt(Math.random() * doglinks.length);
+                                                location.href = doglinks[i];
+                                            }
+                                        </script>
+                                        <a href="#" onclick="randomDogLink();">Available Dogs</a>
                                     </div>
                                 </div>
                                 <div class="separator"></div>
@@ -329,8 +339,18 @@
 
                                 <div class="menubranch">
                                     <div class="menunode" menunode="17540">
-                                        <a href="https://www.petfinder.com/search/cats-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6"
-                                            target="_blank">Available Cats</a>
+                                        <script>
+                                            var catlinks = [
+                                                'https://www.petfinder.com/search/cats-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6&sort=newest_addition',
+                                                'https://www.petfinder.com/search/cats-for-adoption/us/ky/morgantown/?shelterRescue=e14fc7d9-a9a9-4bf3-a97e-a9600de752f6&sort=oldest_addition'
+                                            ];
+
+                                            function randomCatLink() {
+                                                var i = parseInt(Math.random() * catlinks.length);
+                                                location.href = catlinks[i];
+                                            }
+                                        </script>
+                                        <a href="#" onclick="randomCatLink();">Available Cats</a>
                                     </div>
                                 </div>
                                 <div class="separator"></div>
